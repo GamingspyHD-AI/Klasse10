@@ -12,3 +12,4 @@ def drucke_umrechnung(t1, t2):
 x = int(input("Gib die untere Temperaturgrenze in °C ein: "))
 y = int(input("Gib die obere Temperaturgrenze in °C ein: "))
 drucke_umrechnung(x, y)
+ 

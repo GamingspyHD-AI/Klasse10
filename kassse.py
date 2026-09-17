@@ -14,4 +14,11 @@ schuelerkarte = input("Hast du eine Schülerkarte? (ja/nein) ")
 if schuelerkarte == "ja":
     preis = max(0, preis - 5)
 
+wochenende = input("Ist es ein Wochenendticket? (ja/nein) ")
+
+if wochenende == "ja":
+    preis = max(0, preis + 3)
+    if alter < 6:
+        preis = max(0, preis - 3)
+
 print("Der Eintritt kostet", preis, "Euro.")

@@ -8,7 +8,9 @@ def durchschnitt(zahlen):
 liste1 = [2, 4, 6, 8]
 liste2 = [10, 20, 30]
 liste3 = [5]
+liste4 = [5, 7, 6, 10]
 
 print("Durchschnitt von liste1:", durchschnitt(liste1))
 print("Durchschnitt von liste2:", durchschnitt(liste2))
 print("Durchschnitt von liste3:", durchschnitt(liste3))
+print("Durchschnitt von liste4:", durchschnitt(liste4))
